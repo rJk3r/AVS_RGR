@@ -1,0 +1,42 @@
+object Form1: TForm1
+  Left = 281
+  Height = 501
+  Top = 44
+  Width = 780
+  Caption = 'Калькулятор'
+  ClientHeight = 501
+  ClientWidth = 780
+  LCLVersion = '2.2.0.4'
+  object Button1: TButton
+    Left = 48
+    Height = 57
+    Top = 424
+    Width = 680
+    Caption = 'ПЕРЕВЕСТИ'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 229
+    Height = 16
+    Top = 8
+    Width = 323
+    Caption = 'КАЛЬКУЛЯТОР ПЕРЕВОДА ЧИСЕЛ В 6-РИЧНУЮ ССЧ'
+  end
+  object Edit1: TEdit
+    Left = 200
+    Height = 28
+    Top = 72
+    Width = 373
+    TabOrder = 1
+    Text = 'Введите начальное число'
+  end
+  object Edit2: TEdit
+    Left = 204
+    Height = 28
+    Top = 250
+    Width = 368
+    TabOrder = 2
+    Text = 'Ответ'
+  end
+end
